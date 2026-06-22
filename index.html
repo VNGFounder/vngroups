@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vengers Co. Private Limited</title>
+
+<style>
+
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#222;
+}
+
+/* NAVBAR */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+}
+
+.logo{
+    height:70px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#d4af37;
+}
+
+/* HERO */
+
+.hero{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+
+.hero h2{
+    color:#d4af37;
+    margin:15px 0;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* SECTION */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.title{
+    text-align:center;
+    margin:70px 0 40px;
+    font-size:2.5rem;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    width:500px;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.company-logo{
+    width:100%;
+    max-height:180px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+
+.tagline{
+    color:#d4af37;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.card ul{
+    padding-left:20px;
+    line-height:2;
+}
+
+/* VISION */
+
+.vision{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:80px 10%;
+    margin-top:70px;
+}
+
+.values{
+    margin-top:25px;
+    color:#d4af37;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+/* CONTACT */
+
+.contact{
+    padding:70px 10%;
+}
+
+.contact-box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.card{
+    width:100%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<img src="logo.png" class="logo" alt="VNG Logo">
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#fashion">ZX & HippoXpark</a></li>
+<li><a href="#smoothx">SmoothX</a></li>
+<li><a href="#vision">Vision</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section id="home" class="hero">
+
+<h1>Vengers Co. Private Limited</h1>
+
+<h2>A Vansh Nipun Group Company</h2>
+
+<p>
+Welcome to VNG.
+Every great company begins with an idea.
+We turn ideas into reality and reality into lasting success.
+</p>
+
+</section>
+
+<section class="container">
+
+<h2 class="title">Our Companies</h2>
+
+<div class="cards">
+
+<div class="card" id="fashion">
+
+<img src="hippoxpark.png" class="company-logo" alt="HippoXpark">
+
+<img src="zx.png" class="company-logo" alt="ZX">
+
+<h3>ZX & HippoXpark Fashions Pvt. Co.</h3>
+
+<p class="tagline">Unleash The Bold.</p>
+
+<ul>
+<li>T-Shirts</li>
+<li>Oversized T-Shirts</li>
+<li>Hoodies</li>
+<li>Sweatshirts</li>
+<li>Joggers</li>
+<li>Caps</li>
+<li>Jackets</li>
+<li>Cargo Pants</li>
+</ul>
+
+</div>
+
+<div class="card" id="smoothx">
+
+<h3>SmoothX</h3>
+
+<p class="tagline">Everyday Products. Lasting Value.</p>
+
+<ul>
+<li>Mobile Covers</li>
+<li>Stationery</li>
+<li>Home Decor Items</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="vision" class="vision">
+
+<h2>Our Vision</h2>
+
+<p>
+To become a globally recognized business group driven by innovation,
+growth and excellence.
+</p>
+
+<div class="values">
+Innovation • Growth • Excellence
+<br><br>
+Creating Businesses That Last.
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<div class="contact-box">
+
+<p><strong>Group:</strong> Vansh Nipun Group (VNG)</p>
+<br>
+<p><strong>Company:</strong> Vengers Co. Private Limited</p>
+<br>
+<p><strong>Email:</strong> contact@vngroups.com</p>
+<br>
+<p><strong>Website:</strong> www.vngroups.com</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Vengers Co. Private Limited
+
+<br>
+
+A Vansh Nipun Group Company
+
+<br><br>
+
+From Ideas to Impact.
+
+</footer>
+
+</body>
+</html>
